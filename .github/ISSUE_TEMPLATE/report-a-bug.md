@@ -1,9 +1,10 @@
 ---
 name: Report a Bug
 about: Report a problem with this template.
-title: ""
+title: ''
 labels: bug
-assignees: ""
+assignees: ''
+
 ---
 
 **Description**

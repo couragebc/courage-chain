@@ -1,9 +1,10 @@
 ---
 name: Ask a Question
 about: Ask a question about this template.
-title: ""
+title: ''
 labels: question
-assignees: ""
+assignees: ''
+
 ---
 
 **Question**
