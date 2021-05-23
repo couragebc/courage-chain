@@ -2,7 +2,7 @@
 
 [![Try on playground](https://img.shields.io/badge/Playground-Node_Template-brightgreen?logo=Parity%20Substrate)](https://playground.substrate.dev/?deploy=node-template)
 
-A fresh FRAME-based [Substrate](https://www.substrate.io/) node, ready for hacking :rocket:
+Courage is a FRAME-based blockchain built with [Substrate](https://www.substrate.io/):rocket:
 
 ## Getting Started
 
@@ -41,7 +41,7 @@ Once the project has been built, the following command can be used to explore al
 subcommands:
 
 ```sh
-./target/release/node-template -h
+./target/release/courage-chain -h
 ```
 
 ## Run
@@ -55,19 +55,19 @@ node.
 This command will start the single-node development chain with persistent state:
 
 ```bash
-./target/release/node-template --dev
+./target/release/courage-chain --dev
 ```
 
 Purge the development chain's state:
 
 ```bash
-./target/release/node-template purge-chain --dev
+./target/release/courage-chain purge-chain --dev
 ```
 
 Start the development chain with detailed logging:
 
 ```bash
-RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/node-template -lruntime=debug --dev
+RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/courage-chain -lruntime=debug --dev
 ```
 
 ### Connect with Polkadot-JS Apps Front-end
@@ -131,7 +131,7 @@ After the node has been [built](#build), refer to the embedded documentation to 
 capabilities and configuration parameters that it exposes:
 
 ```shell
-./target/release/node-template --help
+./target/release/courage-chain --help
 ```
 
 ### Runtime
@@ -196,10 +196,10 @@ by appending your own. A few useful ones are as follow.
 
 ```bash
 # Run Substrate node without re-compiling
-./scripts/docker_run.sh ./target/release/node-template --dev --ws-external
+./scripts/docker_run.sh ./target/release/courage-chain --dev --ws-external
 
 # Purge the local dev chain
-./scripts/docker_run.sh ./target/release/node-template purge-chain --dev
+./scripts/docker_run.sh ./target/release/courage-chain purge-chain --dev
 
 # Check whether the code is compilable
 ./scripts/docker_run.sh cargo check
