@@ -1,8 +1,8 @@
-# Substrate Node Template
+# Courage Chain Node 
 
 [![Try on playground](https://img.shields.io/badge/Playground-Node_Template-brightgreen?logo=Parity%20Substrate)](https://playground.substrate.dev/?deploy=node-template)
 
-A fresh FRAME-based [Substrate](https://www.substrate.io/) node, ready for hacking :rocket:
+A fresh FRAME-based blockchain based on [Substrate](https://www.substrate.io/) :rocket:
 
 ## Getting Started
 
