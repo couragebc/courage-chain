@@ -16,6 +16,10 @@ Install [nix](https://nixos.org/) and optionally [direnv](https://github.com/dir
 
 First, complete the [basic Rust setup instructions]().
 
+### Clone This Link
+...bash
+git clone https://github.com/couragebc/courage-chain.git
+
 ### Run
 
 Use Rust's native `cargo` command to build and launch the template node:
