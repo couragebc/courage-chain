@@ -1,4 +1,4 @@
-# CourageChain Node
+# Courage Chain Node
 
 [![Try on playground](https://img.shields.io/badge/Playground-Node_Template-brightgreen?logo=Parity%20Substrate)](https://playground.substrate.dev/?deploy=node-template)
 
